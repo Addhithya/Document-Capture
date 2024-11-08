@@ -12,7 +12,7 @@ documents_with_instruction = LlamaParse(
     parsing_instruction="""
     Extract me just the Document no./id , Name , Expiry date
     """
-    ).load_data("/Users/addhithyarh/Desktop/Screenshot 2024-11-08 at 18.54.20.png")
+    ).load_data("<path_to_local_document>")
 
 print (documents_with_instruction)
 
